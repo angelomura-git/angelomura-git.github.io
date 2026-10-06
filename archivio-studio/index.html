@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archivio studio</title>
+<meta name="description" content="Archivio studio: lo strumento privato che archivia in Google Drive gli allegati delle email di uno studio di commercialista.">
+<style>
+  :root {
+    --bg: #fbfaf7; --text: #1f2328; --muted: #57606a; --line: #e4e1da; --accent: #1f5f8b;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c; --text: #e6e6e3; --muted: #a3a9b0; --line: #2c3238; --accent: #7fb8e0;
+      --card: #1c2025;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); margin: 0 0 2.5rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  ol, ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); }
+  .box {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.25rem; margin-top: 2.5rem;
+  }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Archivio studio</h1>
+  <p class="sub">Lo strumento privato che archivia in Google Drive gli allegati delle email di uno studio di commercialista.</p>
+
+  <p>Archivio studio non è un servizio aperto al pubblico. Lo usano soltanto lo studio e chi ne cura lo sviluppo e l'assistenza tecnica: meno di dieci account Google in tutto.</p>
+
+  <h2>Che cosa fa, ogni notte</h2>
+  <ol>
+    <li>Legge, in sola lettura, la casella Gmail dello studio e trova gli allegati utili: fatture, F24, contratti e gli altri documenti dei clienti.</li>
+    <li>Riconosce il cliente, l'anno e il tipo di documento, e salva ogni documento nella cartella giusta del Google Drive dello studio. Dopo il caricamento controlla che il file salvato sia identico all'originale.</li>
+    <li>Manda allo studio un riepilogo per email, con i documenti archiviati e le domande sui casi dubbi.</li>
+    <li>Legge le risposte dello studio da un foglio Google dedicato e le applica la notte dopo.</li>
+  </ol>
+
+  <h2>Che cosa non fa</h2>
+  <ul>
+    <li>Non cancella, non sposta e non modifica le email.</li>
+    <li>Non cancella e non sovrascrive i file su Google Drive.</li>
+    <li>Non condivide documenti con nessuno e non allarga la condivisione delle cartelle.</li>
+    <li>Non vende dati, non li usa per pubblicità e non li usa per addestrare modelli di intelligenza artificiale.</li>
+  </ul>
+
+  <div class="box">
+    <p style="margin:0">Quali dati usa, dove stanno e come togliere l'accesso: <a href="privacy.html">informativa sulla privacy</a>.</p>
+  </div>
+
+  <footer>
+    Sviluppo e assistenza: Angelo Mura, <a href="mailto:angelomura.dev@gmail.com">angelomura.dev@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>

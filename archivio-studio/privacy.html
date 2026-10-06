@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archivio studio, informativa sulla privacy</title>
+<meta name="description" content="Quali dati di Google usa Archivio studio, dove stanno, con chi si condividono e come togliere l'accesso.">
+<style>
+  :root {
+    --bg: #fbfaf7; --text: #1f2328; --muted: #57606a; --line: #e4e1da; --accent: #1f5f8b;
+    --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15181c; --text: #e6e6e3; --muted: #a3a9b0; --line: #2c3238; --accent: #7fb8e0;
+      --card: #1c2025;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .25rem; }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .5rem; }
+  ul, ol { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  code { font-size: .9em; }
+  .perm { border-left: 3px solid var(--line); padding: .1rem 0 .1rem 1rem; margin: 1rem 0; }
+  .perm p { margin: .25rem 0; }
+  .perm strong { display: block; }
+  .box {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 1rem 1.25rem; margin: 1rem 0;
+  }
+  .en { color: var(--muted); font-size: .95rem; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 3rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="./">← Archivio studio</a></p>
+  <h1>Informativa sulla privacy</h1>
+  <p class="sub">Archivio studio · aggiornata il 6 ottobre 2026</p>
+
+  <h2>Chi gestisce l'app</h2>
+  <p>Archivio studio è uno strumento privato di uno studio di commercialista. Lo sviluppa e ne cura l'assistenza tecnica Angelo Mura. Non è aperto al pubblico: lo usano soltanto lo studio e lo sviluppatore.</p>
+
+  <h2>Quali dati di Google usa, e perché</h2>
+  <p>L'app chiede solo i permessi che le servono. Ognuno lo concede il titolare dell'account Google, una volta sola.</p>
+
+  <div class="perm">
+    <strong>Gmail, sola lettura</strong>
+    <p>Sulla casella dello studio: trovare le email ricevute e scaricarne gli allegati da archiviare. Il testo delle email si legge solo in memoria, per accorgersi dei link a file grandi (per esempio WeTransfer), e non viene salvato. L'app non può cancellare, spostare o modificare le email.</p>
+  </div>
+  <div class="perm">
+    <strong>Gmail, invio</strong>
+    <p>Solo sull'account che spedisce il riepilogo: mandare il riepilogo di ogni notte e gli avvisi tecnici. Sullo stesso account la sola lettura serve a controllare la Posta inviata, per non spedire due volte lo stesso riepilogo.</p>
+  </div>
+  <div class="perm">
+    <strong>Google Drive e Fogli Google</strong>
+    <p>Sul Drive dello studio: creare le cartelle dei clienti, caricare i documenti e rileggerli per controllare che siano identici all'originale, verificare chi può vedere una cartella prima di scriverci, e leggere il foglio dove lo studio risponde alle domande. L'app non cancella e non sovrascrive i file, e non li condivide con nessuno.</p>
+  </div>
+
+  <h2>Che cosa conserva</h2>
+  <p>Un registro di lavoro, che serve a non archiviare due volte lo stesso documento e a ritrovare che cosa è stato fatto. Contiene:</p>
+  <ul>
+    <li>gli identificativi tecnici delle email e dei file;</li>
+    <li>mittente, oggetto e data delle email esaminate;</li>
+    <li>nome, dimensione e impronta digitale (SHA-256) di ogni allegato, e la cartella in cui è stato archiviato;</li>
+    <li>le domande fatte allo studio e le sue risposte.</li>
+  </ul>
+  <p>I documenti stanno soltanto nel Google Drive dello studio. I registri di funzionamento (log) contengono solo dati tecnici: mai nomi, oggetti delle email o contenuti dei documenti.</p>
+
+  <h2>Dove stanno i dati</h2>
+  <p>Nell'Unione europea. Il registro e le credenziali di accesso a Google stanno su Google Cloud, nella regione di Milano (<code>europe-west8</code>). Durante la fase di prova stanno su un computer dello sviluppatore, in Italia. Le credenziali non compaiono mai nei log.</p>
+
+  <h2>Con chi si condividono</h2>
+  <p>Con nessuno. I dati non vengono venduti, ceduti o usati per pubblicità, e non servono ad addestrare modelli di intelligenza artificiale. Li vedono soltanto lo studio e, per l'assistenza tecnica, lo sviluppatore. L'unico fornitore è Google, per Gmail, Drive e Google Cloud.</p>
+  <p>Oggi l'app non usa servizi di intelligenza artificiale. Se in futuro li userà per i documenti dubbi, sarà solo con fornitori che trattano i dati nell'Unione europea e con un accordo sul trattamento dei dati. Questa pagina sarà aggiornata prima.</p>
+
+  <div class="box">
+    <p style="margin-top:0">L'uso delle informazioni ricevute dalle API di Google da parte di Archivio studio, e il loro trasferimento ad altre app, rispettano le <a href="https://developers.google.com/terms/api-services-user-data-policy">Norme sui dati utente dei servizi API di Google</a>, compresi i requisiti di Uso limitato.</p>
+    <p class="en" style="margin-bottom:0" lang="en">Archivio studio's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  </div>
+
+  <h2>Per quanto tempo</h2>
+  <p>Il registro si conserva finché lo studio usa l'app. Una copia di sicurezza settimanale sta in una cartella privata del Drive dello studio. Quando lo studio smette di usare l'app, il registro e le copie si cancellano e l'accesso a Google viene revocato. I documenti archiviati restano nel Drive dello studio, che ne resta proprietario.</p>
+
+  <h2>Come togliere l'accesso</h2>
+  <ol>
+    <li>Aprire la pagina <a href="https://myaccount.google.com/connections">Le tue connessioni ad app e servizi di terze parti</a> dell'account Google.</li>
+    <li>Scegliere «Archivio studio».</li>
+    <li>Scegliere «Elimina tutte le connessioni» (o «Rimuovi accesso»).</li>
+  </ol>
+  <p>Da quel momento l'app non legge e non scrive più nulla. Si può anche scrivere allo sviluppatore, che revoca l'accesso e cancella il registro.</p>
+
+  <h2>Dati dei clienti dello studio</h2>
+  <p>I documenti archiviati contengono dati dei clienti dello studio. Titolare del trattamento è lo studio, che li tratta per svolgere il proprio lavoro e risponde alle richieste di accesso, correzione o cancellazione previste dal GDPR.</p>
+
+  <footer>
+    Contatto: Angelo Mura, <a href="mailto:angelomura.dev@gmail.com">angelomura.dev@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
